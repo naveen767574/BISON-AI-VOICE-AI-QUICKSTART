@@ -9,17 +9,17 @@ It can search the web, fetch weather updates, send emails, and even switch perso
 
 ✨ Features
 
-🎤 Real-time voice interaction using Deepgram STT + Cartesia TTS
+🎤 Real-time voice interaction using Deepgram STT + Cartesia TTS.
 
-🔍 Web search powered by SerpAPI
+🔍 Web search powered by SerpAPI.
 
-☀️ Weather updates with OpenWeatherMap API
+☀️ Weather updates with OpenWeatherMap API.
 
-📧 Email sending via Gmail SMTP
+📧 Email sending via Gmail SMTP.
 
-🎭 Dynamic personas – teacher, friend, or coach
+🎭 Dynamic personas – teacher, friend, or coach.
 
-🤖 Powered by Google Gemini for natural language reasoning
+🤖 Powered by Google Gemini for natural language reasoning.
 
 📂 Project Structure
 ├── agent.py         # Main assistant agent (LiveKit entrypoint)
@@ -85,21 +85,21 @@ The assistant will join your LiveKit room and greet you:
 
 Switch between personas to change the assistant’s tone:
 
-Teacher – polite, clear, step-by-step explanations
+Teacher – polite, clear, step-by-step explanations.
 
-Friend – casual, friendly, light-hearted
+Friend – casual, friendly, light-hearted.
 
-Coach – strict, motivational, pushy
+Coach – strict, motivational, pushy.
 
 📌 Roadmap
 
- Add more personas (doctor, storyteller, mentor)
+ Add more personas (doctor, storyteller, mentor).
 
- Add task management (to-do lists, reminders)
+ Add task management (to-do lists, reminders).
 
- Integrate with calendar APIs
+ Integrate with calendar APIs.
 
- Expand TTS voices
+ Expand TTS voices.
 
 🛡️ License
 
