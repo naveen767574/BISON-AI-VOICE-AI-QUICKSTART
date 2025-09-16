@@ -16,6 +16,7 @@ It can **search the web**, **fetch weather updates**, **send emails**, and even 
 ---
 
 ## 📂 Project Structure
+```bash
 agent.py # Main assistant agent (LiveKit entrypoint)
 tools.py # Tools: web search, weather lookup, email
 personas.py # Persona definitions & manager
@@ -34,14 +35,15 @@ requirements.txt # Python dependencies
 
 
 2. **Create a virtual environment**
-```bash
-python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # (Linux/Mac)
+   venv\Scripts\activate      # (Windows)
+
 
 3. **Install dependencies**
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
 🔑 Environment Setup
