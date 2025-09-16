@@ -33,20 +33,20 @@ requirements.txt # Python dependencies
    cd bisonai
 
 
-Create a virtual environment
-
+2. **Create a virtual environment**
+```bash
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 
-Install dependencies
-
+3. **Install dependencies**
+```bash
 pip install -r requirements.txt
 
 
 🔑 Environment Setup
 
-Create a .env file in the project root with your keys:
+**Create a .env file in the project root with your keys:**
 # Google Gemini
 GOOGLE_API_KEY=your_google_key_here
 
@@ -70,7 +70,7 @@ GMAIL_APP_PASSWORD=your_app_password
 🚀 Usage
 
 Run the assistant with:
-
+```bash
 python agent.py
 
 The assistant will join your LiveKit room and greet you:
