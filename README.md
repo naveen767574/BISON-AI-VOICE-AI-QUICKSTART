@@ -26,23 +26,10 @@ requirements.txt # Python dependencies
 
 ---
 
-### ⚙️ Installation
+⚙️ Installation
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yourusername/bisonai.git
-   cd bisonai
-
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # (Linux/Mac)
-   venv\Scripts\activate      # (Windows)
-
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-
+Clone the repo
+```bash
+git clone https://github.com/yourusername/bisonai.git
+cd bisonai
 
