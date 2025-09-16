@@ -23,13 +23,11 @@ personas.py # Persona definitions & manager
 requirements.txt # Python dependencies
 .env # Environment variables (API keys, secrets)
 
-
 ---
 
 ##⚙️ Installation
-
-Clone the repo
 ```bash
+Clone the repo
 git clone https://github.com/yourusername/bisonai.git
 cd bisonai
 
