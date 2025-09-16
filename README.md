@@ -25,9 +25,80 @@ requirements.txt # Python dependencies
 
 ---
 
-##⚙️ Installation
-```bash
+⚙️ Installation
+
 Clone the repo
+
 git clone https://github.com/yourusername/bisonai.git
 cd bisonai
+
+
+Create a virtual environment
+
+python -m venv venv
+source venv/bin/activate   # (Linux/Mac)
+venv\Scripts\activate      # (Windows)
+
+
+Install dependencies
+
+pip install -r requirements.txt
+
+🔑 Environment Setup
+
+Create a .env file in the project root with your keys:
+
+# Google Gemini
+GOOGLE_API_KEY=your_google_key_here
+
+# Deepgram
+DEEPGRAM_API_KEY=your_deepgram_key_here
+
+# Cartesia
+CARTESIA_API_KEY=your_cartesia_key_here
+
+# SerpAPI (for web search)
+SERPAPI_API_KEY=your_serpapi_key_here
+
+# OpenWeather
+OPENWEATHER_API_KEY=your_openweather_key_here
+
+# Gmail (for email sending)
+GMAIL_USER=your_email@gmail.com
+GMAIL_APP_PASSWORD=your_app_password
+
+🚀 Usage
+
+Run the assistant with:
+
+python agent.py
+
+
+The assistant will join your LiveKit room and greet you:
+
+“Hi my name is BisonAI, your personal assistant. How can I make your day better?”
+
+🎭 Personas
+
+Switch between personas to change the assistant’s tone:
+
+Teacher – polite, clear, step-by-step explanations.
+
+Friend – casual, friendly, light-hearted.
+
+Coach – strict, motivational, pushy.
+
+📌 Roadmap
+
+ Add more personas (doctor, storyteller, mentor).
+
+ Add task management (to-do lists, reminders).
+
+ Integrate with calendar APIs.
+
+ Expand TTS voices.
+
+🛡️ License
+
+MIT License – feel free to use and modify.
 
