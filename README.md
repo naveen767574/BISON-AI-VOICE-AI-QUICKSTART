@@ -26,7 +26,7 @@ requirements.txt # Python dependencies
 
 ---
 
-⚙️ Installation
+##⚙️ Installation
 
 Clone the repo
 ```bash
