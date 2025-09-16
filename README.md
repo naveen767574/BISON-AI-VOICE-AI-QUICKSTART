@@ -16,11 +16,11 @@ It can **search the web**, **fetch weather updates**, **send emails**, and even 
 ---
 
 ## 📂 Project Structure
-├── agent.py # Main assistant agent (LiveKit entrypoint)
-├── tools.py # Tools: web search, weather lookup, email
-├── personas.py # Persona definitions & manager
-├── requirements.txt # Python dependencies
-└── .env # Environment variables (API keys, secrets)
+agent.py # Main assistant agent (LiveKit entrypoint)
+tools.py # Tools: web search, weather lookup, email
+personas.py # Persona definitions & manager
+requirements.txt # Python dependencies
+.env # Environment variables (API keys, secrets)
 
 
 ---
